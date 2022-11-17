@@ -53,6 +53,7 @@ button {
     font-family: 'space-mono', sans-serif;
 }
 h1 {
+    font-family: 'space-mono', sans-serif;
     position: absolute;
     left: 20px;
     top: 20px;
@@ -67,4 +68,48 @@ h1 {
     bottom: 10px;
     color: #4F4F4F;
     
+}
+
+@media (max-width: 375px) {
+    .contenedor {
+    
+    
+        display: grid;
+        grid-template-rows: 200px 200px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 50px;
+        margin-left: 10px;
+        
+    }
+
+    .foto {
+        width: 300px;
+        height: 400px;
+        
+    }
+    .marca {
+    
+        position: absolute;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        bottom: -10px;
+        margin-bottom: 0;
+        width: 400px;
+                
+    }
+    .global {
+        
+        margin-top: 80px;
+        
+    }
+    .titulo {
+        margin-bottom: 5px;
+    }
+    .contenido {
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-size: 18px ;
+    }
 }

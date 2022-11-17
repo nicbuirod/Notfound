@@ -73,13 +73,14 @@ h1 {
 @media (max-width: 375px) {
     .contenedor {
     
-    
+    width: auto;
         display: grid;
         grid-template-rows: 200px 200px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 403px;
         justify-items: center;
-        gap: 50px;
-        margin-left: 10px;
+        gap: 70px;
+        margin-top: 40px;
+        
         
     }
 
@@ -90,7 +91,7 @@ h1 {
     }
     .marca {
     
-        position: absolute;
+        position: fixed;
         left: 70%;
         transform: translate(-50%, -50%);
         bottom: -10px;
@@ -99,15 +100,15 @@ h1 {
                 
     }
     .global {
-        
+        width: 436px;
         margin-top: 80px;
         
     }
     .titulo {
-        margin-bottom: 5px;
+        margin-bottom: 40px;
     }
     .contenido {
-        margin-bottom: 50px;
+        margin-bottom: 60px;
     }
     h1 {
         font-size: 18px ;
